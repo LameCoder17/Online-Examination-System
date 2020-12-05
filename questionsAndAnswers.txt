@@ -1,0 +1,69 @@
+Which of the following programming languages was released the earliest ?
+Java
+Python
+R
+Javascript
+Python
+
+Python is a successor to which of the following languages ?
+Java
+SETL
+ABC
+C++
+ABC
+
+Which sorting technique is considered to be the simplest sorting algorithms ?
+Bubble Sort
+Merge Sort
+Quick Sort
+Insertion Sort
+Bubble Sort
+
+What is JVM ?
+Jumber Verbose Mechanics
+Java Variable Mechanics
+Java Virtual Machine
+.Net Framework
+Java Virtual Machine
+
+What does FTP stand for ?
+File Transfer Program
+File Transfer Protocol
+File Thread Protocol
+File Thread Program
+File Transfer Protocol
+
+Who is known as the father of Java programming language ?
+Bill Board
+James Gosling
+Jame Smith
+Sabeer Bhatia
+James Gosling
+
+One kilobyte contains how many bytes ?
+1000
+1024
+100
+24
+1024
+
+An IP address is a ___ number.
+32 bit
+16 bit
+8 bit
+64 bit
+32 bit
+
+Who is known as the father of computers ?
+Charles Babbage
+Scott Aaronson
+Charles Bachman
+David A. Bader
+Charles Babbage
+
+What does BIOS stand for ?
+Better Integrated Operating System
+Basic Input Output System
+Battery Integrated Operating Setup
+Backup Input Output System
+Basic Input Output System

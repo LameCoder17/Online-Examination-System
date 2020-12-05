@@ -1,0 +1,23 @@
+#round1{
+    -fx-background-color: #00539CFF;
+    -fx-background-radius: 12;
+    -fx-background-insets: 5;
+    -fx-text-fill: #FFFFFFFF;
+
+}
+
+#roundtwo{
+    -fx-background-color: #FFFFFFFF;
+    -fx-background-radius: 50;
+    -fx-background-insets: 0;
+    -fx-text-fill: black;
+
+}
+
+#anPane
+{
+	 -fx-background-image: url("images/background.jpg");
+	 -fx-background-size: cover;
+}
+
+
