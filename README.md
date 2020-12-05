@@ -1,7 +1,13 @@
 # Online Examination System
  An MCQ based examination system made with JavaFX
+ 
+ 
  Made for 3rd Semester OOPS Project
+ 
+ 
  Uses jfoenix for fonts and tilesfx for Countdown timer (.jar stored in lib)
+ 
+ 
  
  Questions and Answers are stored in questionsAndAnswers.txt and the format is
  - Question
