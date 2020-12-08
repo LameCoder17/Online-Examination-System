@@ -123,6 +123,7 @@ public class JavaQuizController implements Initializable{
 			qaID =  i;
 		 }
 
+		 //Option selection
     public String selectedToggle(int qa, JFXRadioButton r1, JFXRadioButton r2, JFXRadioButton r3, JFXRadioButton r4){  //For the selection toggle
 			String temp = map.get(qa);
 			String sel = null;
@@ -212,17 +213,20 @@ public class JavaQuizController implements Initializable{
 		 }
 	 }
 
-    public double calCorrectAnswer() {  //Calculates marks at the end
+    public String[] calCorrectAnswer() {  //Calculates number of correct/incorrect answers and marks at the end
 		int qNum = 10;
+		int correct = 0, incorrect = 0;
 		double count = 0;
 		for (int qid = 0; qid < qNum; qid++){
 			if (qca[qid][1].substring(1).equals(map.get(qid))) {
 				count++;
+				correct++;
 			} else if ((settings.negativeMarking != 0) && (map.get(qid) != null)) {
 				count -= settings.negativeMarking;
+				incorrect++;
 			}
 		}
-         return count;
+		return new String[]{String.valueOf(count), String.valueOf(correct), String.valueOf(incorrect)};
      }
 
     @FXML

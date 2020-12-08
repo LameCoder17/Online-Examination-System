@@ -18,9 +18,9 @@ public class Main extends Application {
 			File myObj = new File("settings.txt");
 			Scanner myReader = new Scanner(myObj);
 
-			settings.time = Integer.parseInt(myReader.nextLine());
-			settings.negativeMarking = Double.parseDouble(myReader.nextLine());
-			settings.rollback = Integer.parseInt(myReader.nextLine());
+			settings.time = Integer.parseInt(myReader.nextLine());  //Setting time limit
+			settings.negativeMarking = Double.parseDouble(myReader.nextLine());  // Setting amount of negative marking
+			settings.rollback = Integer.parseInt(myReader.nextLine()); //Setting for rollback
 
 			myReader.close();
 

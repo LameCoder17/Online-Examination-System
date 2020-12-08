@@ -16,8 +16,8 @@ public class View implements Initializable{
 
 	@Override
 		public void initialize(URL arg0, ResourceBundle arg1) {
-    		double no = JavaQuizController.getInstance().calCorrectAnswer();
-			Marks.setText(no + "/10");  // Setting final score
+    		String[] no = JavaQuizController.getInstance().calCorrectAnswer();  // Get back String array
+    		Marks.setText("Correct Answers - " + no[1] + "\nIncorrect Answers - " + no[2] + "\nMarks scored - " + no[0] + "/10");  //Show how many correct, incorrect answers and marks scored
 		}
 
 	public void exit() {

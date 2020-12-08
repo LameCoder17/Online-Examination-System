@@ -67,7 +67,7 @@ public class Model implements Initializable {
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
 		this.createPage("/Style/JavaQuizView.fxml");
-		CountDown count = new CountDown();
+		CountDown count = new CountDown();  //Timer
 		countDown.getChildren().add(count.setCountdown());
 	}
 
@@ -84,7 +84,7 @@ public class Model implements Initializable {
 			e.printStackTrace();
 		}
 	}
-
+//For rollback
     @FXML
 	 public void q1Action() {
     	if(settings.rollback == 1){
@@ -175,6 +175,7 @@ public class Model implements Initializable {
 			}
 	    }
 
+	    // If question answered
     public void setColorGreen(int qaID, boolean value){
 	    	if(Objects.equals(value, true)){
 	    		if(Objects.equals(qaID, 0)){
@@ -210,7 +211,7 @@ public class Model implements Initializable {
 	    		}
 	    	}
 	    }
-
+// If question not answered
     public void setColorRed(int qaID, boolean value){
 	    	if(Objects.equals(value, true)){
 	    		if(Objects.equals(qaID, 0)){
